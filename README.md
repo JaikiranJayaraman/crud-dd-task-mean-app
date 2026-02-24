@@ -282,8 +282,8 @@ http://<EC2-PUBLIC-IP>
 
 | Server | Purpose | Instance Type | Port |
 |--------|---------|--------------|------|
-| App Server | Runs MEAN stack | t2.micro | 80 |
-| Jenkins Server | CI/CD | t2.medium | 8080 |
+| App Server | Runs MEAN stack | t3.small | 80 |
+| Jenkins Server | CI/CD | c7i-flex.large | 8080 |
 
 ---
 
@@ -313,15 +313,16 @@ This project demonstrates:
 The implementation follows industry-standard DevOps practices.
 
 ---
+<img width="2879" height="1534" alt="Screenshot 2026-02-24 175803" src="https://github.com/user-attachments/assets/0b3ed5f4-cee1-4a65-8755-d7b3bd675950" />
+<img width="2861" height="1527" alt="Screenshot 2026-02-24 180330" src="https://github.com/user-attachments/assets/889c9e44-64f1-45cd-9780-1142a0e10919" />
+<img width="2879" height="1534" alt="Screenshot 2026-02-24 180344" src="https://github.com/user-attachments/assets/4f34a2a8-858b-4b54-8998-503ac8c68560" />
+<img width="2879" height="1706" alt="Screenshot 2026-02-24 180440" src="https://github.com/user-attachments/assets/5a7181dd-096f-4b97-ac27-5a3d188c02b4" />
+<img width="2879" height="1467" alt="image" src="https://github.com/user-attachments/assets/f1aaea9a-100b-4a58-9505-54116bd78bfc" />
 
-# 📸 Screenshots
 
-(Add your screenshots here)
 
-- Jenkins successful build
-- Docker Hub images
-- Running containers
-- Application UI
+
+
 
 ---
 
